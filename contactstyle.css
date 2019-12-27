@@ -1,0 +1,130 @@
+/*font-family: 'Oswald', sans-serif; 길쭉
+font-family: 'Lobster', cursive; 꿀렁
+
+
+*/
+
+html{
+  padding : 0;
+  background-color: #711c91;
+  color:white;
+  font-family: 'Courier Prime', monospace;
+
+  }
+
+
+  .container{
+
+    margin-left: 13rem;
+    margin-right: 13rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .topmenu{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+
+  .newname{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5rem;
+    color: #0abdc6;
+    font-weight: bold;
+   }
+  
+  .menu a{
+    text-decoration:none;
+    color: #ea00d9;
+    font-size: 1.2rem;
+    font-stretch: narrower;
+
+  }
+  
+  .menu a:hover{
+    color: #02007B;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-family: 'Russo One', sans-serif;
+    margin:0;
+    margin-top:3rem;
+    text-align: end;
+  }
+
+  .menuitem{
+    margin-top:0.4rem;
+  }
+  
+  .main{
+  font-family: 'Oswald', sans-serif;
+  width: 50rem;
+  margin-top: 2rem;
+  margin:auto;
+  text-align:left;
+  color:white;
+}
+
+  .title{
+    margin-top:2.5rem;
+    font-size : 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .contact{
+    font-size: 1.5rem;
+  }
+
+  .fullName{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.9rem;
+  }
+  .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .namebox{
+    width: 24.5rem;
+    height: 2rem;
+  }
+
+  .whatName{
+    width: 24.5rem;
+  }
+  
+  .box{
+   
+    height: 2rem;
+    width:49.7rem;
+  }
+
+  .messagebox{
+    height: 5rem;
+    width:49.7rem;
+    margin-bottom: 1rem;
+  }
+
+  button{
+  color:white;
+  background-color: #711c91	;
+
+  width:7rem;
+  height: 2.5rem;
+  font-family: 'Oswald', sans-serif;
+  border: 2px solid white;
+  }
+
+  input:focus{
+    background-color:#02007B;
+    color:white;
+    font-family: 'Russo One', sans-serif;
+  }

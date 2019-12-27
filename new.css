@@ -1,0 +1,144 @@
+/*font-family: 'Oswald', sans-serif; 길쭉
+font-family: 'Lobster', cursive; 꿀렁
+
+
+*/
+
+html{
+  padding : 0;
+  background-color:#02007B;
+  color:white;
+  font-family: 'Courier Prime', monospace;
+
+  }
+
+  
+  .container{
+
+    margin-left: 13rem;
+    margin-right: 13rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .topmenu{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  
+  .newname{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5rem;
+    color: 	#711c91;
+    font-weight: bold;
+   }
+  
+  .menu a{
+    text-decoration:none;
+    color:#0abdc6; 
+    font-size: 1.2rem;
+    font-stretch: narrower;
+  }
+
+  .menu a:hover{
+    color: 	#711c91;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-family: 'Russo One', sans-serif;
+    margin:0;
+    margin-top:3rem;
+    text-align: end;
+  }
+
+
+  .menuitem{
+    margin-top:0.3rem;
+  }
+
+  
+::selection{
+  color:#00ff9f;
+}
+
+.titleContainer{
+  align-items: center;
+  display:flex;
+  flex-direction: row;
+}
+
+
+.img{
+  
+  background-color: #02007B;
+}
+
+.img img{
+  width: 30rem;
+  height: 40rem;
+  mix-blend-mode: darken;
+}
+
+
+.greeting{
+  color:#ea00d9;
+  padding-left: 2rem;
+}
+
+.job{
+  color:#ea00d9;
+  padding-left: 2rem;
+
+}
+.name{
+  font-size : 3.5rem;
+  letter-spacing: 4px;
+  padding-left:2rem;
+  padding-top:1rem;
+  padding-bottom: 1rem;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: lighter;
+  color:#00ff9f;
+}
+
+
+.introtext{
+  padding: 2rem;
+  padding-top: 2rem;
+  font-size : 0.9rem;
+  text-align:justify;
+}
+
+
+
+.media{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+
+.socialmedia ul li{
+  list-style-type: none;
+  padding-left:0.7rem;
+}
+
+
+
+.socialmedia ul li .fa{
+  font-size : 1.9rem;  /* 아이콘 크기*/
+}
+
+.mail {
+  text-align: end;
+  font-size: 0.9rem;
+  color:#133e7c;
+ }
+ 
